@@ -3,7 +3,7 @@ var swLocation = "/06_twittor_PWA/sw.js";
 
 if (navigator.serviceWorker) {
    if (url.includes("localhost")) swLocation = "/sw.js";
-   navigator.serviceWorker.register(swlocation);
+   navigator.serviceWorker.register(swLocation);
 }
 
 // Referencias de jQuery
