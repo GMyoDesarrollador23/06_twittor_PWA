@@ -9,7 +9,6 @@ if (navigator.serviceWorker) {
 }
 
 // Referencias de jQuery
-
 var titulo = $("#titulo");
 var nuevoBtn = $("#nuevo-btn");
 var salirBtn = $("#salir-btn");
@@ -26,7 +25,7 @@ var txtMensaje = $("#txtMensaje");
 // El usuario, contiene el ID del héroe seleccionado
 var usuario;
 
-// ===== Codigo de la aplicación
+// Codigo de la aplicación
 
 function crearMensajeHTML(mensaje, personaje) {
    var content = `
