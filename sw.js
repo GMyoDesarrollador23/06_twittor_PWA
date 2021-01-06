@@ -1,4 +1,3 @@
-// import { updateCacheDynamic } from "js/sw-utils.js";
 importScripts("/js/sw-utils.js");
 
 
